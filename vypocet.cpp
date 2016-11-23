@@ -5,12 +5,12 @@ void vypocetSplatky(float s, float u, int d, float *spl);
 int main(){
 	int d;
 	float s, u;
-	float *spl;
+	float spl;
 	
 	printf("Zadajte vysku pozicky, urok a dlzku splacania v mesiacoch: ");
 	scanf("%f%f%d", &s, &u, &d);
 	
-	vypocetSplatky(s,  u,  d, spl);
+	vypocetSplatky(s,  u,  d, *spl);
 	
 }
 
