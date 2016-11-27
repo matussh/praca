@@ -1,0 +1,46 @@
+body{
+	font-family: "Lucida Bright",Georgia,serif;
+	text-align: center;
+}
+.container{
+	border: 2px black solid;
+	padding: 5px;
+	width: 200px;
+	margin: 0 auto;
+	border-radius: 4px;
+	background-color: #d9d9d9;
+
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.btn{
+	background-color: rgb(253, 105, 85);
+	color: white;
+	padding: 15px 18px 18px 18px;
+	margin: 10px 0px 10px 0;
+	text-decoration: none;
+	font-size: 12px;
+	border-radius: 10px;
+	text-transform: uppercase;
+
+	
+}
+ .btn:hover{
+ 	background-color: #fd7a68;
+ 	text-decoration: none;
+ }
+
+input{
+	
+	width: 100px;
+	padding: 5px 10px;
+	margin-bottom: 3px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
